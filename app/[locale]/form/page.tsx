@@ -9,7 +9,10 @@ export default async function FormPage({
   const { locale } = await params;
   const t = await getTranslations("Form");
   return (
-    <div className='min-h-screen' dir={locale === "ar" ? "rtl" : "ltr"}>
+    <div
+      className='min-h-screen min-w-screen'
+      dir={locale === "ar" ? "rtl" : "ltr"}
+    >
       <section className='hero-form'>
         <h1>{t("title")}</h1>
         <p>{t("description")}</p>

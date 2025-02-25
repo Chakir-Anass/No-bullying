@@ -36,7 +36,7 @@ export function Form({ locale = "en" }: { locale?: "en" | "fr" | "ar" }) {
   }, [api]);
 
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex-1 max-w-3xl self-center mx-auto'>
       <p className=''>{t("formTitle")}</p>
       <div className='form-carousel p-8'>
         <Progress
@@ -44,7 +44,7 @@ export function Form({ locale = "en" }: { locale?: "en" | "fr" | "ar" }) {
           className='w-full mb-4 '
         />
         <Carousel
-          className='w-full max-w-xl'
+          className=''
           setApi={setApi}
           opts={{ direction: locale === "ar" ? "rtl" : "ltr" }}
         >
