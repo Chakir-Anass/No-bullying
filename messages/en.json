@@ -1,0 +1,26 @@
+{
+  "Home": {
+    "title": "Stop Bullying",
+    "description": "It's okay to feel hurt, angry, or sad. Suppressing your emotions can make healing harder. Talk to someone you trust and surround yourself with those who uplift you.",
+    "button": "Get Help Now",
+    "consolation": "Consolation",
+    "consolationDescription": "We understand that being bullied can be a traumatic experience. It's important to remember that you are not alone. There are people who care about you and want to help you.",
+    "consolationDescription2": "We are here to support you. We are here to help you. We are here to listen to you.",
+    "consolationDescription3": "We are here to help you. We are here to listen to you."
+  },
+  "Form": {
+    "title": "Stop Bullying Form",
+    "description": "Please fill out the form below to help us understand your experience and support you better. Your data will remain saved even if you change languages.",
+    "formTitle": "Welcome to IBN BATTOUTA School – We are here to support you!",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "summary": "Summary",
+    "not_answered": "Not Answered",
+    "answer": "Answer",
+    "submit": "Submit",
+    "loading": "Submitting...",
+    "success": "Form submitted successfully",
+    "error": "Form submission failed"
+  }
+}
