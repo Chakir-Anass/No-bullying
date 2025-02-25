@@ -5,7 +5,7 @@ export const team: { name: string; class: string }[] = [
   },
   {
     name: "سفيان فجاج",
-    class: "إطار الدعم الإجتماعي",
+    class: "مختص اجتماعي",
   },
   {
     name: "محمد الوافي",
