@@ -22,5 +22,9 @@
     "loading": "Submitting...",
     "success": "Form submitted successfully",
     "error": "Form submission failed"
+  },
+  "Team": {
+    "title": "Team Top10 | Ibn Batouta School",
+    "description": "We are a team of students from Ibn Batouta School who are passionate about helping others. We are here to support you."
   }
 }

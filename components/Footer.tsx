@@ -1,8 +1,10 @@
+import { TeamDrawer } from "./team-drawer";
+
 export function Footer() {
   return (
-    <footer className='text-xs backdrop-blur-sm'>
+    <footer className='flex flex-col w-full items-center justify-center text-xs backdrop-blur-sm gap-2'>
       © 2025 IBN BATTOUTA School – All Rights Reserved.
-      <p>Project released by Mohamed Amine Taj</p>
+      <TeamDrawer />
     </footer>
   );
 }

@@ -22,5 +22,9 @@
     "loading": "Envoi en cours...",
     "success": "Formulaire envoyé avec succès",
     "error": "Erreur lors de l'envoi du formulaire"
+  },
+  "Team": {
+    "title": "Equipe Top10 | École Ibn Batouta",
+    "description": "Nous sommes une équipe d'élèves de l'école Ibn Batouta qui sont passionnés par l'aide aux autres. Nous sommes là pour vous soutenir."
   }
 }
