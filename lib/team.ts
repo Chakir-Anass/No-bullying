@@ -9,18 +9,18 @@ export const team: { name: string; class: string }[] = [
   },
   {
     name: "محمد الوافي",
-    class: "1BAC",
+    class: "2BSPC5",
   },
   {
     name: "حسناء الناجي",
-    class: "1BAC",
+    class: "2BSPC1",
   },
   {
     name: "اية فكار",
-    class: "1BAC",
+    class: "2BSPC1",
   },
   {
     name: "تاج محمد أمين",
-    class: "1BAC",
+    class: "2BSPC5",
   },
 ];
