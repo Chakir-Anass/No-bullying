@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "../globals.css";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
@@ -55,6 +56,7 @@ export default async function RootLayout({
           </div>
           <Toaster />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
