@@ -5,13 +5,12 @@
     "button": "Get Help Now",
     "consolation": "Consolation",
     "consolationDescription": "We understand that being bullied can be a traumatic experience. It's important to remember that you are not alone. There are people who care about you and want to help you.",
-    "consolationDescription2": "We are here to support you. We are here to help you. We are here to listen to you.",
-    "consolationDescription3": "We are here to help you. We are here to listen to you."
+    "consolationDescription2": "We are here to support you. We are here to help you. We are here to listen to you."
   },
   "Form": {
     "title": "Stop Bullying Form",
     "description": "Please fill out the form below to help us understand your experience and support you better. Your data will remain saved even if you change languages.",
-    "formTitle": "Welcome to IBN BATTOUTA School – We are here to support you!",
+    "formTitle": "Welcome to IBN BATTOUTA HIGH SCHOOL – We are here to support you!",
     "confirm": "Confirm",
     "back": "Back",
     "next": "Next",
@@ -24,7 +23,7 @@
     "error": "Form submission failed"
   },
   "Team": {
-    "title": "Team Top10 | Ibn Batouta School",
-    "description": "We are a team of students from Ibn Batouta School who are passionate about helping others. We are here to support you."
+    "title": "Team Top10 | Ibn Batouta High School",
+    "description": "We are a team of students from Ibn Batouta High School who are passionate about helping others. We are here to support you."
   }
 }

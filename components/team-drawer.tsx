@@ -22,7 +22,7 @@ export function TeamDrawer() {
     <Drawer>
       <DrawerTrigger asChild>
         <Button variant='outline' size={"sm"}>
-          Team Top10 | Ibn Batouta School
+          Team Top10 | Ibn Batouta High School
         </Button>
       </DrawerTrigger>
       <DrawerContent>

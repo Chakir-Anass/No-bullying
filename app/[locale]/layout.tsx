@@ -9,6 +9,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { LangSwitcher } from "@/components/LangSwitcher";
 import { Toaster } from "@/components/ui/sonner";
+import Providers from "../providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,18 +45,20 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         dir={locale === "ar" ? "rtl" : "ltr"}
       >
-        <NextIntlClientProvider messages={messages}>
-          <div className='flex flex-col'>
-            <LangSwitcher />
-            <div className='flex-1'>{children}</div>
-            <div className='fixed top-1/3 left-0 w-full h-full pointer-events-none z-[-1]'>
-              <div className='floating-shapes w-[200px] h-[200px] top-[20%] left-[10%]'></div>
-              <div className='floating-shapes w-[150px] h-[150px] top-[60%] right-[15%]'></div>
+        <Providers>
+          <NextIntlClientProvider messages={messages}>
+            <div className='flex flex-col'>
+              <LangSwitcher />
+              <div className='flex-1'>{children}</div>
+              <div className='fixed top-1/3 left-0 w-full h-full pointer-events-none z-[-1]'>
+                <div className='floating-shapes w-[200px] h-[200px] top-[20%] left-[10%]'></div>
+                <div className='floating-shapes w-[150px] h-[150px] top-[60%] right-[15%]'></div>
+              </div>
+              <Footer />
             </div>
-            <Footer />
-          </div>
-          <Toaster />
-        </NextIntlClientProvider>
+            <Toaster />
+          </NextIntlClientProvider>
+        </Providers>
         <Analytics />
       </body>
     </html>

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/carousel";
 import { Progress } from "@/components/ui/progress";
 import { Link } from "@/i18n/routing";
+import { useFormStore } from "@/store/useFormStore";
 
 export function Form({ locale = "en" }: { locale?: "en" | "fr" | "ar" }) {
   const t = useTranslations("Form");
@@ -21,6 +22,7 @@ export function Form({ locale = "en" }: { locale?: "en" | "fr" | "ar" }) {
   const [api, setApi] = React.useState<CarouselApi>();
   const [current, setCurrent] = React.useState(0);
   const [count, setCount] = React.useState(0);
+  const { responses } = useFormStore();
 
   React.useEffect(() => {
     if (!api) {
@@ -33,7 +35,7 @@ export function Form({ locale = "en" }: { locale?: "en" | "fr" | "ar" }) {
     api.on("select", () => {
       setCurrent(api.selectedScrollSnap() + 1);
     });
-  }, [api]);
+  }, [api, responses]);
 
   return (
     <div className='flex-1 max-w-3xl self-center mx-auto'>

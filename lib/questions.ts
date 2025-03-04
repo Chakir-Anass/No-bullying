@@ -59,7 +59,7 @@ export const questions: Question[] = [
       {
         label: { en: "First Name", fr: "Prénom", ar: "الاسم الأول" },
         key: "first name",
-        name: "first_name",
+        name: "firstName",
         placeholder: {
           en: "Enter your first name",
           fr: "Entrez votre prénom",
@@ -69,11 +69,11 @@ export const questions: Question[] = [
       {
         label: { en: "Last Name", fr: "Nom", ar: "الاسم العائلي" },
         key: "last name",
-        name: "last_name",
+        name: "lastName",
         placeholder: {
           en: "Enter your last name",
           fr: "Entrez votre nom",
-          ar: "أدخل اسم عائلتك",
+          ar: "أدخل اسمك العائلي",
         },
       },
     ],
@@ -117,7 +117,6 @@ export const questions: Question[] = [
     choices: [
       { index: 0, en: "Daily", fr: "Quotidiennement", ar: "يوميًا" },
       { index: 1, en: "Sometimes", fr: "Parfois", ar: "أحيانًا" },
-      { index: 2, en: "Rarely", fr: "Rarement", ar: "نادراً" },
     ],
     name: "bullyingFrequency",
   },
@@ -135,7 +134,7 @@ export const questions: Question[] = [
         fr: "Camarades de classe",
         ar: "زملاء الدراسة",
       },
-      { index: 1, en: "Teachers", fr: "Enseignants", ar: "المعلمين" },
+      { index: 1, en: "Teachers", fr: "Enseignants", ar: "الاساتذة" },
       {
         index: 2,
         en: "School Staff",
@@ -191,7 +190,7 @@ export const questions: Question[] = [
     q: {
       en: "Would you like to talk to a counselor?",
       fr: "Souhaitez-vous parler à un conseiller?",
-      ar: "هل ترغب في التحدث إلى مستشار؟",
+      ar: "هل ترغب في التحدث إلى مختص اجتماعي-نفسي؟",
     },
     choices: [
       { index: 0, en: "Yes", fr: "Oui", ar: "نعم" },

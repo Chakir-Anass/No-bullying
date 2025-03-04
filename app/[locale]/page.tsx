@@ -18,7 +18,6 @@ export default function Home() {
         <h2>{t("consolation")}</h2>
         <p>{t("consolationDescription")}</p>
         <p>{t("consolationDescription2")}</p>
-        <p>{t("consolationDescription3")}</p>
       </section>
     </main>
   );
