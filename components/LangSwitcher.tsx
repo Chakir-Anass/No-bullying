@@ -7,7 +7,6 @@ export function LangSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   // Change language without losing form data
   const changeLanguage = (newLocale: string) => {
-    console.log({ pathname, newLocale });
     router.push(pathname, { scroll: false, locale: newLocale });
   };
   return (

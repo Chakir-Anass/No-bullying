@@ -45,7 +45,6 @@ export function SubmitForm() {
           data[field.name] = responses[field.name] || null;
         });
       } else if (question.type === "choice") {
-        console.log({ responses: responses[question.name] });
         data[question.name] = responses[question.name]
           ? parseInt(responses[question.name])
           : null;
@@ -53,7 +52,6 @@ export function SubmitForm() {
         data[question.name] = responses[question.name] || null;
       }
     });
-    console.log({ data });
     submitForm(data);
   };
   return (
