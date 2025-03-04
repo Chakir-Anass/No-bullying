@@ -7,6 +7,7 @@ import { useRouter } from "@/i18n/routing";
 import { questions } from "@/lib/questions";
 import { toast } from "sonner";
 import { useMutation } from "@tanstack/react-query";
+import { Loader2 } from "lucide-react";
 
 export function SubmitForm() {
   const t = useTranslations("Form");
@@ -61,7 +62,7 @@ export function SubmitForm() {
       onClick={handleSubmit}
       disabled={isPending}
     >
-      {t("submit")}
+      {isPending ? <Loader2 className='w-4 h-4 animate-spin' /> : t("submit")}
     </Button>
   );
 }
